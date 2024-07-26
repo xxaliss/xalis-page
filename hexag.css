@@ -11,6 +11,7 @@
   }
 
 .back {
+  margin-top: 20px;
   margin-left: 1.2%; 
   font-size: 16pt;
   width: 15%;
@@ -24,6 +25,7 @@
   }
   
 .back:hover {
+  margin-top: 20px;
   margin-left: 1.2%; 
   font-size: 16pt;
   width: 15%;
@@ -51,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rant {
-  width: 12.2%;
+  width: 300px;
   margin-left: 1.2%;
   margin-top: 10px;
   border-left-style: solid;
@@ -198,70 +200,38 @@ div.uni {
 
 /* pussy gallery */
 
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 2px;
-  }
-
+b {
+  font-size: 16pt;
+}
 
 div.gallery {
+  margin-top: 20px;
+  margin-left: 1.2%;
+  float: center;
+  width: 180px;
 }
 
 div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
+  width: 300px;
   height: auto;
-  margin-top: 20px;
 }
 
-b {
-  font-size: 16pt;
-  }
-
 div.desc {
-  font-size: 13pt;
-  margin-top: 20px;
+  width: 266px;
   padding: 15px;
+  /* text*/
+  font-size: 14pt;
   text-align: left;
-  border-color: #696969;
+  /* Image Desc border */
+  border: 2px;
   border-left-style: solid;
   border-right-style: solid;
   border-top-style: dashed;
   border-bottom-style: dashed;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  margin-left: 1.2%;
-  padding: 0 0;
-  float: left;
-  width: 300px;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 50%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+  border-color: #696969;
 }
 
 .fil {
@@ -293,3 +263,6 @@ div.desc {
   word-wrap: break-word;
   padding: 10px;
   }
+
+
+  /* the fuck */
