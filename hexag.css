@@ -1,0 +1,295 @@
+/* Just a warning... This is horrible CSS!! Not ordered or anything. Barely commented... I'm sorry... */
+
+@font-face {
+  font-family: decimamonopro;
+  src: url(DECIMAMONOPRO400.OTF);
+}
+
+@font-face {
+  font-family: uni;
+  src: url(unifont.ttf);
+  }
+
+.back {
+  margin-left: 1.2%; 
+  font-size: 16pt;
+  width: 15%;
+  border: 3px;
+  border-style: outset;
+  padding: 10px;
+  border-color: #f2f2f2;
+  text-align: center;
+  font-weight: 800;
+  background-color: black;
+  }
+  
+.back:hover {
+  margin-left: 1.2%; 
+  font-size: 16pt;
+  width: 15%;
+  border: 3px;
+  border-style: inset;
+  padding: 10px;
+  border-color: #0d0d0d;
+  text-align: center;
+  font-weight: 800;
+  background-color: white;
+  }
+
+#back {
+  color: white;
+  }
+  
+#back:hover {
+  color: black;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 30pt;
+  color: #696969;
+  <!--animation: blinker 1s ease infinite;-->
+}
+
+.rant {
+  width: 12.2%;
+  margin-left: 1.2%;
+  margin-top: 10px;
+  border-left-style: solid;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-right-style: solid;
+  border-color: #696969;
+  padding: 20px;
+  word-wrap: break-word;
+  font-size: 14pt;
+  }        
+
+.rant_notice {
+  width: 10%;
+  margin-left: 1.2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-left-style: solid;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-right-style: solid;
+  border-color: #4287f5;
+  color: #4287f5;
+  padding: 20px;
+  word-wrap: break-word;
+  font-size: 10pt;
+  }
+
+body{
+    font:100%/1 Meiryo,"メイリオ","ＭＳ Ｐゴシック","MS PGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,sans-serif;;
+    font-size: 2em;
+    background-color: #FFFFFF;
+    <!--#89C8FA-->
+    margin: 1em;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    height: 100;
+    width: 100%;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+  }
+.box {
+  z-index: -1;
+  margin: 1;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  }
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #696969;
+    text-decoration: none;
+}
+
+.hilite{
+    color: #696969;
+    <!--#44647D--> 
+    text-decoration: none;
+}
+
+img {
+    width:auto;
+}
+
+.preview-image {
+    opacity: 0;
+    width: 100vw;
+  }
+  .nopadding {
+    padding: 0!important;
+  } 
+  .container:hover .preview-image {
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container:hover .txt-container {
+    opacity: 0;
+  }
+  .txt-container {
+    opacity: 1;
+    font-weight: bold;
+    color: white;
+  }
+  .btn {
+    background-color: #89C8FA;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+  color: white;
+  text-decoration: none;
+}
+
+p:hover {
+  color: #696969;
+  text-decoration: none;
+}
+
+div.uni {
+  font-size: 50pt;
+  z-index: -2;
+  font-family: uni;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  position: absolute;
+  word-wrap: break-word;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  }
+    
+#pt {
+  font-size: 12pt;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  animation: blinker 1.5s linear infinite;
+                      <!--step-end-->
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        }
+}
+
+
+/* pussy gallery */
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 2px;
+  }
+
+
+div.gallery {
+}
+
+div.gallery:hover {
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+b {
+  font-size: 16pt;
+  }
+
+div.desc {
+  font-size: 13pt;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: left;
+  border-color: #696969;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  margin-left: 1.2%;
+  padding: 0 0;
+  float: left;
+  width: 300px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fil {
+  filter: grayscale(100%);
+  }
+
+.rant_cat {
+  width: 300px;
+  margin-left: 1.2%;
+  margin-top: 10px;
+  border-left-style: solid;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-right-style: solid;
+  border-color: #696969;
+  padding: 20px;
+  word-wrap: break-word;
+  font-size: 14pt;
+  }  
+
+.para {
+  margin-top: 20px;
+  width: 600px;
+  font-size: 16pt;
+  color: #696969;
+  border: 2px;
+  border-left-style: solid;
+  border-color: #4287f5;
+  word-wrap: break-word;
+  padding: 10px;
+  }
